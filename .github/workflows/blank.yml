@@ -27,7 +27,8 @@ on:
     - name: Cypress Screenshot & Video Upload to WorkChat
   # You may pin to the exact commit or the version.
   # uses: SreeniIO/cypress-upload-to-workchat-action@892527fcd4931e66366d2ea5efa85754935e0308
-  uses: SreeniIO/cypress-upload-to-workchat-action@v1.0.8
+
+  uses: hoangsaint/cypress-upload-to-workchat-action@v1.0.8
   with:
     # WorkChat token
     token: 

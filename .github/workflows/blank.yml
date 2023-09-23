@@ -7,12 +7,6 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]  
-
-    - name: Video Converter Action
-  # You may pin to the exact commit or the version.
-  # uses: hoangsaint/video-converter@ad753f854ba38ddabb382233c254579e31b3df75
-  uses: hoangsaint/video-converter@v1.0
-  with:
     # Folder in which original videos are stored
     videos-folder: # default is videos
     # New format for videos
